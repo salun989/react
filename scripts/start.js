@@ -75,17 +75,17 @@ choosePort(HOST, DEFAULT_PORT)
    // const proxySetting = require(paths.appPackageJson).proxy;
    //利辉设置的开始
    //console.log(require(paths.appPackageJson))
-  var root='http://test.danajia.com.cn'
+  var root='http://xxx.danajia.com.cn'
     const proxySetting ={
-    	'/apl' : {  
+    	'/apl' : {
         target: root, //源地址
         changeOrigin: true, //改变源
         pathRewrite: {
           '^/apl' : root //路径重写
         }
       }
-    	
-    };   
+
+    };
      //return  false;
     //利辉设置的结束
     const proxyConfig = prepareProxy(proxySetting, paths.appPublic);
