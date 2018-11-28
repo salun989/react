@@ -1,0 +1,25 @@
+.clearfix::after{
+    display: block;
+    content: "";
+    height: 0 ;
+    clear: both ;
+    visibility: hidden ;
+}
+ul,li{
+    outline: none;
+    list-style-type:none;
+}
+.navbar{
+
+}
+.navbar  li{
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+.navbar  li  a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
